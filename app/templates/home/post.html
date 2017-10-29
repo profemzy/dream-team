@@ -1,0 +1,38 @@
+
+{% import "bootstrap/utils.html" as utils %}
+{% extends "base.html" %}
+{% block title %}Posts{% endblock %}
+{% block body %}
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                  <br>
+                <br>
+                <br>
+            <h1 style="text-align:center;">{{ post.title }}</h1>
+                 {% if post %}
+                      <hr class="intro-divider">
+                      <div>
+                        <p>{{ post.content | safe }}</p>
+                        <p>
+                            Posted by  {{ post.member.first_name }}
+                            {{ post.member.last_name }} on
+                            {{ post.pub_date.strftime('%B %d, %Y') }}
+                        </p>
+                      </div>
+                     <br>
+                     <a class="btn btn-default" href="{{ url_for('home.list_posts') }}">Back to List</a>
+                      <div style="text-align: center">
+                    {% else %}
+                        <div style="text-align: center">
+                        <h3> No posts have been added. </h3>
+                        <hr class="intro-divider">
+                    {% endif %}
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

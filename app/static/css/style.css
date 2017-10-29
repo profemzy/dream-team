@@ -11,11 +11,11 @@ body, h1, h2, h3 {
 }
 
 a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
-  color: #aec251;
+  color: mediumpurple;
 }
 
 a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
-  color: #687430;
+  color: rebeccapurple;
 }
 
 footer {
@@ -36,12 +36,12 @@ p.copyright {
 }
 
 .btn-default {
-    border-color: #aec251;
-    color: #aec251;
+    border-color: mediumpurple;
+    color: mediumpurple;
 }
 
 .btn-default:hover {
-    background-color: #aec251;
+    background-color: mediumpurple;
 }
 
 .center {
@@ -78,8 +78,8 @@ p.copyright {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 4%;
+    padding-bottom: 35%;
 }
 
 .intro-message > h1 {
@@ -124,4 +124,12 @@ p.copyright {
 .inner {
     margin-left: auto;
     margin-right: auto;
+}
+
+.gists {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: #ffffff;
+    width: 700px;
+    border-radius: 25px;
 }

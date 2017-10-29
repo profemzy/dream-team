@@ -1,5 +1,6 @@
 # config.py
 
+
 class Config(object):
     """
     Common Configuration

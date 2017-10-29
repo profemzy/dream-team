@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="dreamteam_db@localhost" uuid="eb5f7968-b4c1-42ea-8e35-14d95430d669">
+    <data-source name="pythonib_db@localhost" uuid="7a174162-2250-415c-a1c6-8834d9a05480">
       <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-schemas>dreamteam_db:public</introspection-schemas>
+      <introspection-schemas>pythonib_db:public</introspection-schemas>
     </data-source>
   </component>
 </project>

@@ -4,7 +4,7 @@ from flask_login import login_required, login_user, logout_user
 from app.auth.forms import RegistrationForm, LoginForm
 from . import auth
 from .. import db
-from ..models import Employee
+from ..models import Member
 
 
 @auth.route('/register', methods=['GET', 'POST'])
@@ -16,14 +16,14 @@ def register():
     """
     form = RegistrationForm()
     if form.validate_on_submit():
-        employee = Employee(email=form.email.data,
-                            username=form.username.data,
-                            first_name=form.first_name.data,
-                            last_name=form.last_name.data,
-                            password=form.password.data)
+        member = Member(email=form.email.data,
+                        username=form.username.data,
+                        first_name=form.first_name.data,
+                        last_name=form.last_name.data,
+                        password=form.password.data)
 
-        # add employee to the database
-        db.session.add(employee)
+        # add member to the database
+        db.session.add(member)
         db.session.commit()
         flash('You have successfully registered! You may now login. ')
 
@@ -38,20 +38,20 @@ def register():
 def login():
     """
         Handles requests to the /login route
-        Logs in and employee through the login form
+        Logs in and member through the login form
     :return:
     """
     form = LoginForm()
     if form.validate_on_submit():
-        # checks whether employee exists in the database
+        # checks whether member exists in the database
         # checks if provided password matches that in the database
-        employee = Employee.query.filter_by(email=form.email.data).first()
-        if employee is not None and employee.verify_password(form.password.data):
-            # log employee in
-            login_user(employee)
+        member = Member.query.filter_by(email=form.email.data).first()
+        if member is not None and member.verify_password(form.password.data):
+            # log member in
+            login_user(member)
 
             # redirect to the appropriate dashboard page after login
-            if employee.is_admin:
+            if member.is_admin:
                 return redirect(url_for('home.admin_dashboard'))
             else:
                 return redirect(url_for('home.dashboard'))

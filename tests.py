@@ -3,7 +3,7 @@ from flask import abort, url_for
 from flask_testing import TestCase
 
 from app import create_app, db
-from app.models import Employee, Department, Role
+from app.models import Member, Post, Role
 
 
 class TestBase(TestCase):
@@ -12,7 +12,7 @@ class TestBase(TestCase):
         config_name = 'testing'
         app = create_app(config_name)
         app.config.update(
-            SQLALCHEMY_DATABASE_URI='postgresql://postgres:pwd.001@localhost:5432/dreamteam_test'
+            SQLALCHEMY_DATABASE_URI='postgresql://postgres:pwd.001@localhost:5432/pythonib_test'
         )
         return app
 
@@ -24,14 +24,14 @@ class TestBase(TestCase):
         db.create_all()
 
         # create test admin user
-        admin = Employee(username="admin", password="admin2017", is_admin=True)
+        admin = Member(username="admin", password="admin2017", is_admin=True)
 
         # create non admin test user
-        employee = Employee(username="test_user", password="test2017")
+        member = Member(username="test_user", password="test2017")
 
         # save users to database
         db.session.add(admin)
-        db.session.add(employee)
+        db.session.add(member)
         db.session.commit()
 
     def tearDown(self):
@@ -45,29 +45,29 @@ class TestBase(TestCase):
 
 
 class TestModels(TestBase):
-
-    def test_employee_model(self):
+    def test_member_model(self):
         """
-        Test number of records in Employee Table
+        Test number of records in Members Table
         :return:
         """
-        self.assertEqual(Employee.query.count(), 2)
+        self.assertEqual(Member.query.count(), 2)
 
-    def test_department_model(self):
+    def test_post_model(self):
         """
-        Test number of records in the Department Table
+        Test number of records in the Posts Table
         :return:
         """
 
-        # create test department
-        department = Department(name="Information Technology",
-                                description="The I.T Department")
+        # create post post
+        post = Post(title="Test Title",
+                    content="Test Content",
+                    member_id=1)
 
-        # save the department to the database
-        db.session.add(department)
+        # save the post to the database
+        db.session.add(post)
         db.session.commit()
 
-        self.assertEqual(Department.query.count(), 1)
+        self.assertEqual(Post.query.count(), 1)
 
     def test_role_model(self):
         """
@@ -79,7 +79,7 @@ class TestModels(TestBase):
         role = Role(name="Head of Department",
                     description="Heads the Departmental Activities")
 
-        # save department to database
+        # save role to database
         db.session.add(role)
         db.session.commit()
 
@@ -87,7 +87,6 @@ class TestModels(TestBase):
 
 
 class TestViews(TestBase):
-
     def test_homepage_view(self):
         """
         Test that the home page is accessible without login
@@ -140,12 +139,12 @@ class TestViews(TestBase):
         self.assertEqual(response.status_code, 302)
         self.assertRedirects(response, redirect_url)
 
-    def test_department_view(self):
+    def test_post_view(self):
         """
-               Test that departments page is inaccessible without login
-               and redirects to login page then to departments page
+               Test that create posts page is inaccessible without login
+               and redirects to login page then to posts page
         """
-        target_url = url_for('admin.list_departments')
+        target_url = url_for('admin.add_post')
         redirect_url = url_for('auth.login', next=target_url)
         response = self.client.get(target_url)
         self.assertEqual(response.status_code, 302)
@@ -162,12 +161,12 @@ class TestViews(TestBase):
         self.assertEqual(response.status_code, 302)
         self.assertRedirects(response, redirect_url)
 
-    def test_employees_view(self):
+    def test_members_view(self):
         """
-        Test that employees page is inaccessible without login
-        and redirects to login page then to employees page
+        Test that members page is inaccessible without login
+        and redirects to login page then to members page
         """
-        target_url = url_for('admin.list_employees')
+        target_url = url_for('admin.list_members')
         redirect_url = url_for('auth.login', next=target_url)
         response = self.client.get(target_url)
         self.assertEqual(response.status_code, 302)
@@ -175,7 +174,6 @@ class TestViews(TestBase):
 
 
 class TestErrorPages(TestBase):
-
     def test_403_forbidden(self):
         # create route to abort the request with the 403 Error
         @self.app.route('/403')

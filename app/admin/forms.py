@@ -1,16 +1,16 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
+from wtforms import StringField, SubmitField, TextAreaField, HiddenField
 from wtforms.validators import DataRequired
 from wtforms_sqlalchemy.fields import QuerySelectField
-from ..models import Department, Role
+from ..models import Role
 
 
-class DepartmentForm(FlaskForm):
+class PostForm(FlaskForm):
     """
-        Form for admin to add or edit departments
+        Form for admin to add or edit posts
     """
-    name = StringField('Name', validators=[DataRequired()])
-    description = StringField('Description', validators=[DataRequired()])
+    title = StringField('Name', validators=[DataRequired()])
+    content = TextAreaField('Content', validators=[DataRequired()])
     submit = SubmitField('Submit')
 
 
@@ -23,12 +23,10 @@ class RoleForm(FlaskForm):
     submit = SubmitField('Submit')
 
 
-class EmployeeAssignForm(FlaskForm):
+class MemberAssignForm(FlaskForm):
     """
-    Form for admin to assign employee to Roles/Departments
+    Form for admin to assign member to Roles
     """''
-    department = QuerySelectField(query_factory=lambda: Department.query.all(),
-                                  get_label="name")
 
     role = QuerySelectField(query_factory=lambda: Role.query.all(),
                             get_label="name")
