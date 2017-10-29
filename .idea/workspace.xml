@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752cd71b-f0b2-4061-a03f-4352a11e0a4c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install_script.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python-ibadan.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python-ibadan.nginx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/some.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/profemzy.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/profemzy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="python-ibadan.nginx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-ibadan.nginx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="132">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -78,7 +84,6 @@
         <option value="$PROJECT_DIR$/dream-team.py" />
         <option value="$PROJECT_DIR$/app/viewa.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/auth/__init__.py" />
         <option value="$PROJECT_DIR$/app/home/__init__.py" />
         <option value="$PROJECT_DIR$/app/admin/__init__.py" />
@@ -120,6 +125,11 @@
         <option value="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" />
         <option value="$PROJECT_DIR$/tests.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/install_script.sh" />
+        <option value="$PROJECT_DIR$/python-ibadan.nginx" />
+        <option value="$PROJECT_DIR$/weather.nginx" />
+        <option value="$PROJECT_DIR$/python-ibadan.conf" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -129,9 +139,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="243" />
+    <option name="y" value="44" />
     <option name="width" value="1277" />
     <option name="height" value="773" />
   </component>
@@ -163,46 +173,6 @@
               <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python-ibadan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-ibadan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-ibadan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-ibadan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-ibadan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-ibadan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-ibadan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -216,13 +186,14 @@
     <property name="last_opened_file_path" value="$USER_HOME$/anaconda/envs/flaky/bin/python" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value=".giti&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/.gitignore&#10;dash&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/admin_dashboard.html&#10;css&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/static/css/style.css&#10;ba&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/base.html&#10;das&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/dashboard.html&#10;bas&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html&#10;sty&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/static/css/style.css&#10;base&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/install_script.sh&#10;.giti&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/.gitignore&#10;dash&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/admin_dashboard.html&#10;css&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/static/css/style.css&#10;ba&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/base.html&#10;das&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/dashboard.html&#10;bas&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html&#10;sty&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/static/css/style.css&#10;base&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -279,7 +250,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1277" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -287,8 +258,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2810271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19577134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32421875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -306,6 +277,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -405,14 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -599,14 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/auth/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -662,30 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <marker date="1509285521000" expanded="true" signature="4:843" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="32:836" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="58:825" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="94:810" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="119:137" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="276:460" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="496:514" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="515:791" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="582:600" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="601:768" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="879:1865" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="901:1858" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="926:1851" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="952:1842" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="973:991" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1098:1590" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1170:1527" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1245:1320" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1614:1632" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1633:1831" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1676:1694" ph="..." />
-            <marker date="1509285521000" expanded="true" signature="1695:1818" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +946,61 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-ibadan.nginx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <marker date="1509261714000" expanded="false" signature="22:258" ph="import ..." />
+            <marker date="1509261714000" expanded="true" signature="364:1483" ph="..." />
+            <marker date="1509261714000" expanded="true" signature="1112:1186" ph="..." />
+            <marker date="1509261714000" expanded="true" signature="1245:1324" ph="..." />
+            <marker date="1509261714000" expanded="true" signature="1390:1467" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-ibadan.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-ibadan.nginx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding />
         </state>
       </provider>
