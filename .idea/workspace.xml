@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752cd71b-f0b2-4061-a03f-4352a11e0a4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/python-logo-ib.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/python-smlogo-ib.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/home/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/home/posts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/some.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/alembic.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/env.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/script.py.mako" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/versions/a2f7b7c6efc5_.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/templates/admin/departments/department.html" afterPath="$PROJECT_DIR$/app/templates/admin/posts/post.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/templates/admin/departments/departments.html" afterPath="$PROJECT_DIR$/app/templates/admin/posts/posts.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/templates/admin/employees/employee.html" afterPath="$PROJECT_DIR$/app/templates/admin/members/member.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/templates/admin/employees/employees.html" afterPath="$PROJECT_DIR$/app/templates/admin/members/members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/intro-bg.jpg" afterPath="$PROJECT_DIR$/app/static/img/intro-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/forms.py" afterPath="$PROJECT_DIR$/app/admin/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/views.py" afterPath="$PROJECT_DIR$/app/admin/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth/forms.py" afterPath="$PROJECT_DIR$/app/auth/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth/views.py" afterPath="$PROJECT_DIR$/app/auth/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/views.py" afterPath="$PROJECT_DIR$/app/home/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/style.css" afterPath="$PROJECT_DIR$/app/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/base.html" afterPath="$PROJECT_DIR$/app/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" afterPath="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/home/dashboard.html" afterPath="$PROJECT_DIR$/app/templates/home/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/home/index.html" afterPath="$PROJECT_DIR$/app/templates/home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instance/config.py" afterPath="$PROJECT_DIR$/instance/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests.py" afterPath="$PROJECT_DIR$/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,14 +47,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,7 +95,6 @@
         <option value="$PROJECT_DIR$/app/templates/errors/404.html" />
         <option value="$PROJECT_DIR$/app/templates/errors/500.html" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/instance/config.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/app/auth/views.py" />
@@ -154,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/templates/home/dashboard.html" />
         <option value="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" />
         <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -250,7 +216,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/anaconda/envs/flaky/bin/python" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/tests.py&#10;dash&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/admin_dashboard.html&#10;css&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/static/css/style.css&#10;ba&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/base.html&#10;das&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/dashboard.html&#10;bas&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html&#10;sty&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/static/css/style.css&#10;base&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html" />
+    <property name="SearchEverywhereHistoryKey" value=".giti&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/.gitignore&#10;dash&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/admin_dashboard.html&#10;css&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/static/css/style.css&#10;ba&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/base.html&#10;das&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/python-ibadan/app/templates/home/dashboard.html&#10;bas&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html&#10;sty&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/static/css/style.css&#10;base&#9;FILE&#9;file:///Users/profemzy/FlaskProjects/dream-team/app/templates/base.html" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -447,14 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1006,11 +964,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state relative-caret-position="305">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1509290836000" expanded="true" signature="0:157" ph="import ..." />
+            <marker date="1509290836000" expanded="true" signature="185:1097" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="211:472" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="494:940" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="503:576" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="965:1097" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="974:1046" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="1127:2115" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="1160:1299" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="1169:1249" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="1331:1714" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="1340:1422" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="1746:2115" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="1755:1832" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="2144:5327" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="2178:2392" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="2187:2279" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="2424:2632" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="2433:2522" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="2665:3078" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="2674:2820" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="3114:3528" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="3123:3267" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="3570:4002" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="3579:3735" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="4033:4453" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="4042:4192" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="4485:4886" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="4494:4623" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="4920:5327" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="4929:5062" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1509290836000" expanded="true" signature="5361:6253" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="5395:5699" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="5521:5544" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="5734:5896" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="5943:6253" ph="..." />
+            <marker date="1509290836000" expanded="true" signature="6075:6098" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
