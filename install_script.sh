@@ -14,13 +14,13 @@ virtualenv /home/profemzy/python-ibadan/venv
 /home/profemzy/python-ibadan/venv/bin/pip install -r /home/profemzy/python-ibadan/requirements.txt
 
 # configure supervisor
-sudo cp /profemzy/python-ibadan.conf /etc/supervisor/conf.d/
+sudo cp /profemzy/python-ibadan/python-ibadan.conf /etc/supervisor/conf.d/
 sudo mkdir /var/log/python-ibadan
 sudo supervisorctl reread
 sudo supervisorctl update
 
 # configure nginx
-sudo cp /profemzy/python-ibadan.nginx /etc/nginx/sites-available/python-ibadan
+sudo cp /profemzy/python-ibadan/python-ibadan.nginx /etc/nginx/sites-available/python-ibadan
 sudo rm -f /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/python-ibadan /etc/nginx/sites-enabled/
 sudo service nginx restart
