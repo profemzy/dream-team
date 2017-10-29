@@ -7,7 +7,7 @@ sudo apt-get -y install python python-virtualenv nginx supervisor
 
 # install application (source location in $1)
 mkdir /home/profemzy/python-ibadan
-cp -R $1/dream-team/* /home/profemzy/python-ibadan/
+cp -R /home/profemzy/dream-team/* /home/profemzy/python-ibadan/
 
 # create a virtualenv and install dependencies
 virtualenv /home/profemzy/python-ibadan/venv
