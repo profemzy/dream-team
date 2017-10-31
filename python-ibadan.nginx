@@ -13,9 +13,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
     location /static {
-        alias /home/profemzy/python-ibadan/static;
+        alias /home/profemzy/python-ibadan/app/static;
     }
     location /favicon.ico {
-        alias /home/profemzy/python-ibadan/static/favicon.ico;
+        alias /home/profemzy/python-ibadan/app/static/favicon.ico;
     }
 }

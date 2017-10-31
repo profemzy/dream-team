@@ -4,6 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_bootstrap import Bootstrap
+from datetime import datetime
+
 
 # Local Imports
 from config import app_config
@@ -33,6 +35,10 @@ def create_app(config_name):
     app.register_blueprint(admin_blueprint, url_prefix='/admin')
     app.register_blueprint(auth_blueprint)
     app.register_blueprint(home_blueprint)
+
+    @app.context_processor
+    def inject_now():
+        return {'now': datetime.utcnow()}
 
     @app.errorhandler(403)
     def forbidden(error):

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #!/bin/bash
 
-# install web server dependencies
+# install web server dependencies and database
 sudo apt-get update
-sudo apt-get -y install python python-virtualenv nginx supervisor
+sudo apt-get -y install python python-virtualenv nginx supervisor postgresql postgresql-contrib
 
-# install application (source location in $1)
+# install application (source location in cloned-repo folder)
 mkdir /home/profemzy/python-ibadan
 cp -R /home/profemzy/dream-team/* /home/profemzy/python-ibadan/
 
@@ -25,4 +25,4 @@ sudo rm -f /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/python-ibadan /etc/nginx/sites-enabled/
 sudo service nginx restart
 
-echo Application deployed to http://40.68.88.198/
+echo Application deployed to http://13.84.167.14/
